@@ -64,10 +64,10 @@ def chatbot_response(text):
     return res
 
 # Boucle de chat
-print("Chatbot prêt ! (tapez 'exit' pour quitter)")
-while True:
-    mesage_user = str(input("Vous: "))
-    if mesage_user.lower() == "exit":
-        break
-    resultat_bot = chatbot_response(mesage_user)
-    print("Bot: {}".format(resultat_bot))
+# print("Chatbot prêt ! (tapez 'exit' pour quitter)")
+# while True:
+#     mesage_user = str(input("Vous: "))
+#     if mesage_user.lower() == "exit":
+#         break
+#     resultat_bot = chatbot_response(mesage_user)
+#     print("Bot: {}".format(resultat_bot))
