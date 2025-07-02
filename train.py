@@ -1,13 +1,13 @@
 from tensorflow.keras.layers import Dense, Dropout
 from tensorflow.keras.models import Sequential
-from tensorflow.keras.optimizers import SGD # Importation correcte
+from tensorflow.keras.optimizers import SGD
 from nltk.stem import WordNetLemmatizer
 import numpy as np
 import pickle
 import random
 import nltk
 import json
-import os # Importation pour vérifier l'existence du fichier intents.json
+import os 
 
 lemmatizer = WordNetLemmatizer()
 
@@ -15,7 +15,7 @@ words = []
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file_path = 'intents.json' # Chemin vers votre fichier intents.json
+data_file_path = 'intents.json'
 
 # Vérifier si le fichier intents.json existe
 if not os.path.exists(data_file_path):
