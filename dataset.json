@@ -1,0 +1,444 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Bonjour",
+        "Salut",
+        "Coucou",
+        "Bonsoir",
+        "Bonjour à vous",
+        "Hey",
+        "Salut l'équipe",
+        "Hello",
+        "Yo",
+        "Bon matin",
+        "Bonne journée",
+        "Je vous salue",
+        "Allô",
+        "Bonsoir à tous",
+        "Comment ça va ?",
+        "Vous êtes là ?"
+      ],
+      "responses": [
+        "Hello! How can I help you?",
+        "Hi there! How can I help you?",
+        "Hey! How can I help you?",
+        "How can I help you?",
+        "Bonjour ! Comment puis-je vous aider ?",
+        "Salut ! En quoi puis-je vous être utile aujourd’hui ?",
+        "Bonsoir ! Que puis-je faire pour vous ?",
+        "Hello ! Besoin d’aide en marketing digital ?",
+        "Coucou ! Posez-moi votre question.",
+        "Bonjour et bienvenue !",
+        "À votre service ! Dites-moi ce que vous cherchez.",
+        "Heureux de vous voir ici ! Comment puis-je vous accompagner ?"
+      ]
+    },
+    {
+      "tag": "seo_services",
+      "patterns": [
+        "What is SEO?",
+        "Can you help me with SEO?",
+        "I want to rank higher on Google",
+        "How to improve my SEO?"
+      ],
+      "responses": [
+        "SEO stands for Search Engine Optimization. It's about improving your website to rank higher on search engines.",
+        "Yes, we can help you with on-page and off-page SEO strategies.",
+        "To improve your SEO, start by optimizing your keywords, meta tags, and content quality."
+      ]
+    },
+    {
+      "tag": "social_media_marketing",
+      "patterns": [
+        "Do you manage social media?",
+        "I need help with Instagram marketing",
+        "Can you run Facebook ads for me?",
+        "How to grow on social media?"
+      ],
+      "responses": [
+        "Yes, we offer full social media management services including Instagram and Facebook.",
+        "We can help you create a content calendar, run ad campaigns, and grow your audience.",
+        "Targeted ads and engaging content are key to growing your social media presence."
+      ]
+    },
+    {
+      "tag": "email_marketing",
+      "patterns": [
+        "What is email marketing?",
+        "Do you do email campaigns?",
+        "I want to send newsletters",
+        "Can you help with Mailchimp?"
+      ],
+      "responses": [
+        "Email marketing is a way to reach your audience directly through their inbox.",
+        "Yes, we create and manage email campaigns on platforms like Mailchimp, Sendinblue, and others.",
+        "We can design templates, segment your audience, and optimize open and click rates."
+      ]
+    },
+    {
+      "tag": "ppc_advertising",
+      "patterns": [
+        "What is PPC?",
+        "Do you run Google Ads?",
+        "How does pay-per-click advertising work?",
+        "I want to run paid ads"
+      ],
+      "responses": [
+        "PPC stands for Pay-Per-Click, where you pay only when someone clicks your ad.",
+        "We can set up and manage your Google Ads campaigns to maximize ROI.",
+        "PPC is a great way to drive immediate traffic and leads to your website."
+      ]
+    },
+    {
+      "tag": "pricing",
+      "patterns": [
+        "How much do your services cost?",
+        "What’s your pricing?",
+        "Is there a monthly plan?",
+        "Do you offer packages?"
+      ],
+      "responses": [
+        "Our pricing depends on the service and scope of your project.",
+        "We offer monthly plans and customizable packages to suit your needs.",
+        "Contact us for a free quote based on your marketing goals."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon"],
+      "responses": [
+        "Goodbye!",
+        "See you later!",
+        "Have a great day!",
+        "Feel free to reach out anytime."
+      ]
+    },
+    {
+      "tag": "greeting",
+      "patterns": ["Bonjour", "Salut", "Coucou", "Bonsoir", "Salut l'équipe"],
+      "responses": [
+        "Bonjour ! Comment puis-je vous aider en marketing digital ?",
+        "Salut ! Quelles sont vos questions aujourd'hui ?"
+      ]
+    },
+    {
+      "tag": "audience_targeting",
+      "patterns": [
+        "Comment cibler ma clientèle ?",
+        "Je veux affiner mon audience",
+        "Besoin de segmenter mes prospects"
+      ],
+      "responses": [
+        "Nous pouvons définir des segments selon l'âge, les centres d'intérêt, la géolocalisation et bien plus.",
+        "Avez-vous déjà des personas ? Si non, je peux vous aider à les créer."
+      ]
+    },
+    {
+      "tag": "customer_persona",
+      "patterns": [
+        "C'est quoi un persona ?",
+        "Comment créer un buyer persona ?",
+        "Exemple de persona"
+      ],
+      "responses": [
+        "Un persona représente votre client idéal, basé sur des données réelles et des comportements.",
+        "On commence par collecter des infos démographiques, habitudes, défis et objectifs du client."
+      ]
+    },
+    {
+      "tag": "content_strategy",
+      "patterns": [
+        "Comment créer une stratégie de contenu ?",
+        "Besoin d'un calendrier éditorial",
+        "Plan de contenu SEO"
+      ],
+      "responses": [
+        "Une bonne stratégie de contenu comprend : audit, mots-clés, formats variés et calendrier régulier.",
+        "Vous avez une liste de mots-clés ou on part de zéro ?"
+      ]
+    },
+    {
+      "tag": "seo_audit",
+      "patterns": [
+        "Faire un audit SEO",
+        "Analyse technique SEO",
+        "Problèmes SEO site"
+      ],
+      "responses": [
+        "L’audit couvre la technique, le sémantique et les backlinks.",
+        "Je peux scanner vos pages pour repérer balises manquantes, vitesse, maillage interne..."
+      ]
+    },
+    {
+      "tag": "keyword_research",
+      "patterns": [
+        "Recherche de mots-clés",
+        "Trouver des keywords",
+        "Volume de recherche mot-clé"
+      ],
+      "responses": [
+        "On utilise des outils comme SEMrush, Ahrefs pour identifier les mots les plus pertinents.",
+        "Vous ciblez la longue traîne ou les mots génériques ?"
+      ]
+    },
+    {
+      "tag": "onpage_optimization",
+      "patterns": [
+        "Optimisation on-page",
+        "Balises meta page",
+        "Tag title description"
+      ],
+      "responses": [
+        "Il faut optimiser le title, la meta description, les balises Hn et la densité sémantique.",
+        "Je peux analyser vos pages et proposer des titres SEO optimisés."
+      ]
+    },
+    {
+      "tag": "technical_seo",
+      "patterns": ["Vitesse du site", "Mobile first", "Erreurs 404"],
+      "responses": [
+        "L'optimisation technique comprend la compression, mise en cache, lazy loading...",
+        "Avez-vous déjà mesuré votre TTFB et CLS ?"
+      ]
+    },
+    {
+      "tag": "link_building",
+      "patterns": ["Backlinks", "Stratégie de netlinking", "Obtenir des liens"],
+      "responses": [
+        "Nous identifions des sites puissants dans votre niche pour obtenir des liens qualitatifs.",
+        "On peut aussi créer du contenu invité, études ou partenariats."
+      ]
+    },
+    {
+      "tag": "social_ad_campaigns",
+      "patterns": [
+        "Campagnes Facebook Ads",
+        "Publicité Instagram",
+        "Ads LinkedIn"
+      ],
+      "responses": [
+        "Nous pouvons cibler par intérêts, comportements, lookalikes...",
+        "Quel est votre budget mensuel et vos objectifs (clics, conversions, notoriété) ?"
+      ]
+    },
+    {
+      "tag": "ppc_audit",
+      "patterns": [
+        "Audit Google Ads",
+        "Analyse campagnes PPC",
+        "Gaspillage budget Ads"
+      ],
+      "responses": [
+        "Je peux analyser vos mots-clés, enchères, annonces et Quality Score.",
+        "Un audit rapide révèle souvent des mots non performants ou coûts excessifs."
+      ]
+    },
+    {
+      "tag": "email_automation",
+      "patterns": ["Marketing automation", "Séquence email", "Workflow mail"],
+      "responses": [
+        "Nous créons des scénarios personnalisés (bienvenue, relance panier, fidélisation...).",
+        "Quel outil utilisez-vous ? Mailchimp, ActiveCampaign, Sendinblue..."
+      ]
+    },
+    {
+      "tag": "conversion_rate",
+      "patterns": [
+        "Améliorer mon taux de conversion",
+        "CRO",
+        "Conversion page"
+      ],
+      "responses": [
+        "On peut tester vos pages avec A/B testing : titres, CTA, couleurs, formulaires...",
+        "Avez-vous déjà mis en place des heatmaps ou enregistré le parcours utilisateur ?"
+      ]
+    },
+    {
+      "tag": "analytics_reporting",
+      "patterns": [
+        "Dashboard KPI",
+        "Rapport Google Analytics",
+        "Suivi performance"
+      ],
+      "responses": [
+        "Nous configurons des KPIs : sessions, taux de rebond, conversion, ROI...",
+        "Souhaitez-vous des rapports mensuels automatisés ?"
+      ]
+    },
+    {
+      "tag": "marketing_roi",
+      "patterns": ["Calculer le ROI", "Retour sur investissement pub", "ROAS"],
+      "responses": [
+        "On peut calculer le ROAS en comparant revenu généré vs budget dépensé.",
+        "Avez-vous défini un coût d'acquisition cible ?"
+      ]
+    },
+    {
+      "tag": "influencer_marketing",
+      "patterns": [
+        "Marketing d’influence ?",
+        "Trouver un influenceur",
+        "Campagne avec des influenceurs"
+      ],
+      "responses": [
+        "Le marketing d’influence implique de collaborer avec des créateurs pour toucher leur communauté.",
+        "On commence par identifier les influenceurs pertinents selon votre niche et votre budget."
+      ]
+    },
+    {
+      "tag": "webinar_setup",
+      "patterns": [
+        "Organiser un webinar",
+        "Comment faire un webinar",
+        "Plateforme webinar"
+      ],
+      "responses": [
+        "On vous accompagne sur la technique (Zoom, WebinarJam), la promo et le script.",
+        "Nous définissons vos objectifs (lead gen, notoriété) et créons un plan de diffusion."
+      ]
+    },
+    {
+      "tag": "landing_page",
+      "patterns": [
+        "Créer une landing page",
+        "Page de conversion",
+        "Optimiser landing page"
+      ],
+      "responses": [
+        "Une bonne landing page : titre accrocheur, visuel convaincant, formulaire court, CTA clair.",
+        "On peut A/B tester vos éléments : visuels, CTA, mise en page pour maximiser les conversions."
+      ]
+    },
+    {
+      "tag": "retargeting",
+      "patterns": [
+        "Campagne retargeting",
+        "Publicité remarketing",
+        "Relancer visiteurs"
+      ],
+      "responses": [
+        "Le retargeting permet de recibler les internautes ayant visité votre site avec des annonces.",
+        "On peut paramétrer des audiences personnalisées sur Facebook ou Google Ads."
+      ]
+    },
+    {
+      "tag": "growth_hacking",
+      "patterns": ["Growth hacking", "Croissance rapide", "Techniques growth"],
+      "responses": [
+        "Le growth hacking se base sur expérimentation rapide et scalabilité.",
+        "On peut tester des offres virales, parrainage, gamification…"
+      ]
+    },
+    {
+      "tag": "crm_integration",
+      "patterns": ["Intégrer un CRM", "Choisir un CRM", "Automatiser leads"],
+      "responses": [
+        "Un CRM comme HubSpot ou Salesforce permet de suivre le parcours client.",
+        "On peut automatiser l’envoi d’emails, les relances et le scoring de contacts."
+      ]
+    },
+    {
+      "tag": "chatbot_marketing",
+      "patterns": [
+        "Mettre en place un chatbot",
+        "Bot messenger",
+        "Chatbot site web"
+      ],
+      "responses": [
+        "On construit un chatbot pour qualifier les prospects et répondre instantanément.",
+        "Quel objectif ? Support client, génération de leads, prise de rendez-vous..."
+      ]
+    },
+    {
+      "tag": "video_marketing",
+      "patterns": ["Faire du marketing vidéo", "YouTube ads", "Vidéo promo"],
+      "responses": [
+        "La vidéo captive l’audience et améliore le SEO.",
+        "On peut créer des vidéos explicatives, témoignages clients, spots publicitaires..."
+      ]
+    },
+    {
+      "tag": "affiliate_marketing",
+      "patterns": [
+        "Marketing d'affiliation",
+        "Programme d'affiliation",
+        "Devenir affilié"
+      ],
+      "responses": [
+        "L’affiliation permet à vos partenaires de promouvoir vos produits contre commission.",
+        "On peut mettre en place un programme via des plateformes comme Awin ou TradeDoubler."
+      ]
+    },
+    {
+      "tag": "voice_search_seo",
+      "patterns": [
+        "SEO vocal",
+        "Optimiser pour recherche vocale",
+        "Assistant vocal"
+      ],
+      "responses": [
+        "Le SEO vocal nécessite des questions/réponses conversationales et des snippets.",
+        "Intégrer des FAQ enrichies et du contenu orienté vers les requêtes orales aide beaucoup."
+      ]
+    },
+    {
+      "tag": "podcast_marketing",
+      "patterns": [
+        "Créer un podcast",
+        "Podcast marketing",
+        "Promotion podcast"
+      ],
+      "responses": [
+        "Le podcast renforce votre expertise et crée une connexion authentique.",
+        "On vous aide à concevoir, enregistrer, diffuser et promouvoir vos épisodes."
+      ]
+    },
+    {
+      "tag": "ux_optimisation",
+      "patterns": [
+        "Optimiser l’UX",
+        "Expérience utilisateur",
+        "Améliorer parcours client"
+      ],
+      "responses": [
+        "Une UX optimisée réduit le taux de rebond et augmente les conversions.",
+        "On réalise des tests utilisateurs, audits ergonomiques et wireframes améliorés."
+      ]
+    },
+    {
+      "tag": "mobile_marketing",
+      "patterns": ["Marketing mobile", "App promotion", "Notifications push"],
+      "responses": [
+        "Le mobile marketing couvre apps, SMS, notifications push et publicités in-app.",
+        "On peut concevoir des campagnes de retargeting via Firebase ou OneSignal."
+      ]
+    },
+    {
+      "tag": "analytics_heatmap",
+      "patterns": ["Heatmap", "Carte de chaleur site", "Hotjar"],
+      "responses": [
+        "Les heatmaps montrent où cliquent et scrollent les visiteurs.",
+        "On peut utiliser Hotjar ou Crazy Egg pour analyser les comportements en temps réel."
+      ]
+    },
+    {
+      "tag": "competitive_analysis",
+      "patterns": [
+        "Analyse concurrentielle",
+        "Veille marketing",
+        "Benchmark SEO"
+      ],
+      "responses": [
+        "On analyse les concurrents sur leur trafic, mots-clés, contenu et stratégie Ads.",
+        "On peut utiliser Semrush, SimilarWeb ou Ahrefs pour extraire des insights."
+      ]
+    }
+  ]
+}

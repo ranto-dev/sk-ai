@@ -6,7 +6,7 @@ from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
 # 1. Chargement des fichiers nécessaires
-model = load_model("model.h5")
+model = load_model("my_model.h5")
 
 with open("tokenizer.pickle", "rb") as f:
     tokenizer = pickle.load(f)

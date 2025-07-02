@@ -11,7 +11,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 nltk.download('punkt')
 
 # 1. Charger le dataset
-with open("intents.json") as file:
+with open("dataset.json") as file:
     data = json.load(file)
 
 # 2. Préparation des données
@@ -53,8 +53,8 @@ model.compile(loss="sparse_categorical_crossentropy", optimizer="adam", metrics=
 model.summary()
 
 # 6. Entraînement
-model.fit(padded_sequences, np.array(encoded_labels), epochs=300)
+model.fit(padded_sequences, np.array(encoded_labels), epochs=1000)
 
 # 7. Sauvegarde du modèle
-model.save("model.h5")
+model.save("my_model.h5")
 print("✅ Modèle entraîné et sauvegardé dans model.h5")
