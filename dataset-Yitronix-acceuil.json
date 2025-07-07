@@ -1716,6 +1716,41 @@
         "Super ! Dites-nous votre objectif et nous activons ensemble l’agent IA idéal pour vous lancer sans attendre."
       ],
       "context": [""]
+    },
+    {
+      "tag": "se_connecte",
+      "patterns": [
+        "Je veux en savoir plus",
+        "Donne-moi plus d'informations",
+        "Peux-tu m'en dire plus ?",
+        "J'aimerais en apprendre davantage",
+        "Dis-m'en plus",
+        "Tu peux me donner plus de détails ?",
+        "J'ai besoin de plus d'infos",
+        "C'est intéressant, continue",
+        "Explique-moi davantage",
+        "Et ensuite ?",
+        "Plus d'informations s'il te plaît",
+        "Développe un peu plus",
+        "oui",
+        "D'accord",
+        "okey",
+        "OK",
+        "Je t'en pris",
+        "fait-le",
+        "vas-y alors",
+        "vas-y",
+        "mmmm",
+        "evidement",
+        "ouais"
+      ],
+      "responses": [
+        "Pour en savoir plus, connecte-toi à l'application.",
+        "Tu trouveras plus d'informations en te connectant à ton compte.",
+        "Merci pour ton intérêt ! Connecte-toi à l'application pour accéder à tous les détails.",
+        "Connecte-toi à ton espace personnel pour obtenir plus d'informations.",
+        "Nous avons encore beaucoup à te montrer ! Connecte-toi pour continuer."
+      ]
     }
   ]
 }
