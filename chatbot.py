@@ -8,9 +8,9 @@ import json
 
 lemmatizer = WordNetLemmatizer()
 
-model = load_model('model.h5')
+model = load_model('chat-acceuil-model.h5')
 
-intents = json.loads(open('intents.json').read())
+intents = json.loads(open('dataset-Yitronix-acceuil.json').read())
 words = pickle.load(open('words.pkl','rb'))
 classes = pickle.load(open('classes.pkl','rb'))
 

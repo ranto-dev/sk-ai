@@ -15,7 +15,7 @@ words = []
 classes = []
 documents = []
 ignore_words = ['?', '!']
-data_file_path = 'intents.json'
+data_file_path = 'dataset-Yitronix-acceuil.json'
 
 # Vérifier si le fichier intents.json existe
 if not os.path.exists(data_file_path):
@@ -107,6 +107,6 @@ model.compile(loss='categorical_crossentropy', optimizer=sgd, metrics=['accuracy
 # fitting and saving the model
 # Correction: model.save() ne prend pas 'hist' comme deuxième argument
 hist = model.fit(np.array(train_x), np.array(train_y), epochs=200, batch_size=5, verbose=1)
-model.save('model.h5') # Sauvegarder le modèle
+model.save('chat-acceuil-model.h5') # Sauvegarder le modèle
 
 print("model created")
